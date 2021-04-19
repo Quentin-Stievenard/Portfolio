@@ -1,0 +1,173 @@
+footer {
+  background-color: #0f1221;
+  padding: 100px 200px;
+}
+
+footer img {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  padding-left: 7px;
+  padding-top: 7px;
+}
+
+footer .me h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+footer .me p {
+  color: #5a6080;
+  font-size: 20px;
+}
+
+footer .email h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer .email p {
+  margin-top: 60px;
+  color: #5a6080;
+  font-size: 20px;
+}
+
+footer .contact h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+footer .contact p {
+  color: #5a6080;
+  font-size: 20px;
+}
+.contact {
+  margin-left: 30%;
+}
+
+footer .btn-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  padding: 12px;
+  background-color: #0f1221;
+  transition: 0.3s;
+}
+
+footer .btn-icon:hover {
+  background-color: #222532;
+  transition: 0.3s;
+}
+
+footer .btn-icon svg {
+  width: 20px;
+  height: 20px;
+  color: #9fa4bf;
+  transition: 0.3s;
+}
+
+footer .btn-icon:hover svg {
+  color: #3336e3;
+  transition: 0.3s;
+}
+
+footer a {
+  color: #e0e2ef;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 400;
+  transition: 0.3s;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #9fa4bf;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+.footer-link a {
+  margin: 0 40px;
+}
+
+.footer-link h5 {
+  color: #5a6080;
+  font-size: 16px;
+}
+
+@media (max-width: 1315px) {
+  footer .contact h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1227px) {
+  footer {
+    padding: 100px;
+  }
+}
+
+@media (max-width: 961px) {
+  footer .footer-link a {
+    display: none;
+  }
+
+  footer .footer-link {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 865px) {
+  footer .footer-head {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  footer div.contact {
+    margin-left: 0 !important;
+    margin-top: 30px;
+  }
+  footer .email p {
+    margin-top: 30px;
+  }
+
+  footer .footer-link {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 458px) {
+  footer .footer-head h2 {
+    font-size: 20px;
+  }
+  footer .footer-head p {
+    font-size: 15px;
+  }
+
+  footer .contact h1 {
+    font-size: 20px;
+  }
+
+  footer .contact p {
+    font-size: 15px;
+  }
+
+  footer .email h2 {
+    font-size: 15px;
+  }
+  footer {
+    padding: 70px !important;
+  }
+}

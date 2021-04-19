@@ -1,0 +1,53 @@
+.project-card {
+  max-width: 345px;
+  margin: 50px 50px;
+  transition: all 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.project-card img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-card h2 {
+  color: #0f1221;
+  font-weight: 700;
+}
+
+.project-card p {
+  color: #656b8e;
+  font-size: 15px;
+}
+
+.card-img {
+  padding: 15px 0;
+  height: 400px;
+  object-fit: contain;
+}
+
+.modal-dialog {
+  max-width: 800 !important;
+}
+
+@media (max-width: 1105px) {
+  .project-card {
+    max-width: 450px;
+    margin: 20px 20px;
+  }
+}
+
+@media (max-width: 510px) {
+  .card-img {
+    height: auto;
+  }
+}
+
+.MuiPaper-root {
+  width: 320px !important;
+}
