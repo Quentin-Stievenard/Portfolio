@@ -71,7 +71,7 @@
 
   .head-cover {
     display: flex;
-    justify-content: start !important;
+    justify-content: flex-start !important;
   }
 
   .cover img {

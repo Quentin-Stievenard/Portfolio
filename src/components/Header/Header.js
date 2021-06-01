@@ -11,9 +11,7 @@ export default function Header() {
     <header>
       <div className="xs-header w-100">
         <nav className="navbar navbar-light light-blue lighten-4 w-100">
-          <a className="navbar-brand" href="#">
-            <img alt="memoji" src={memoji} />
-          </a>
+          <img alt="memoji" src={memoji} />
 
           <button
             className="navbar-toggler toggler-example burger-btn"
