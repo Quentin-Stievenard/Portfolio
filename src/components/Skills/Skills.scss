@@ -1,0 +1,74 @@
+@mixin skill {
+  width: 100%;
+  background-color: #f9f9fc;
+  margin-top: 50px;
+  padding: 80px 90px;
+
+  h1 {
+    color: #0f1221;
+    font-weight: 800;
+    font-size: 55px;
+  }
+
+  .skill-part {
+    text-align: center;
+    width: 400px;
+    margin: 0 50px;
+    margin-top: 40px;
+
+    h2 {
+      color: #c3c5d7;
+    }
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+
+    p {
+      background-color: #3336e3;
+      font-size: 16px;
+      color: white;
+      padding: 4px 13px;
+      margin: 5px;
+      border-radius: 20px;
+      transition: 0.3s;
+      &:hover {
+        background-color: #5558dd;
+        transition: 0.3s;
+      }
+    }
+  }
+}
+
+.skill {
+  @include skill;
+}
+
+@media (max-width: 1516px) {
+  .skill-container {
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+  }
+  .skill h1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .skill {
+    padding: 40px 20px;
+  }
+  .skill h1 {
+    font-size: 40px;
+  }
+
+  .skill .skill-part h2 {
+    font-size: 25px;
+  }
+}

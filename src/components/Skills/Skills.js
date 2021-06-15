@@ -1,4 +1,4 @@
-import "./Skills.css";
+import "./Skills.scss";
 
 export default function Skills() {
   return (

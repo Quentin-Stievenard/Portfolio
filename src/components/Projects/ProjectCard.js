@@ -1,4 +1,4 @@
-import "./ProjectCard.css";
+import "./ProjectCard.scss";
 import React, { useState } from "react";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";

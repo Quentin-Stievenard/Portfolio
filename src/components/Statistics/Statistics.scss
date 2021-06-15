@@ -1,4 +1,4 @@
-.statistics {
+@mixin statistics {
   width: 100%;
   height: 100%;
   display: flex;
@@ -9,26 +9,39 @@
   border-top: 3px solid #eff0f7;
 
   border-bottom: 3px solid #eff0f7;
+
+  svg {
+    width: 60px;
+    height: 60px;
+    color: #eff0f7;
+  }
+
+  h3 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #0f1221;
+  }
+
+  p {
+    color: #c3c5d7;
+    font-size: 30px;
+  }
+
+  .statistics-left {
+    text-align: center;
+  }
+
+  .statistics-center {
+    text-align: center;
+  }
+
+  .statistics-right {
+    text-align: center;
+  }
 }
 
-.statistics svg {
-  width: 60px;
-  height: 60px;
-  color: #eff0f7;
-}
-
-.statistics h3 {
-  font-size: 80px;
-  font-weight: 700;
-  color: #0f1221;
-}
-.statistics p {
-  color: #c3c5d7;
-  font-size: 30px;
-}
-
-.statistics .statistics-center {
-  text-align: center;
+.statistics {
+  @include statistics;
 }
 
 @media (max-width: 935px) {
